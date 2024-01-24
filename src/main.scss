@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a, button { cursor: pointer; }
+// Button
+.getBtn {
+    width: 8.5625rem;
+    height: 2.75rem;
+    color: #FCF6F5;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: normal;
+    border-radius: 30px;
+    border-color: #F3603C;
+    font-family: "Be Vietnam";
+    background-color: #F3603C;
+}
+// Button end
+
+// Header
+.header {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1rem 1.4rem;
+    background-color: white;
+    top: 0;
+    position: sticky;
+}
+// .category {}
+.category a {
+    color: black;
+    font-weight: 600;
+}
+// Header end
+
+// Main
+.main-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 4.5rem 2rem;
+}
+
+// .main-title {}
+.main-title h2 {
+    margin-bottom: 1.2rem;
+}
+// Main end
+
+// Footer
+
+// Footer end
