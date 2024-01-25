@@ -23,14 +23,6 @@ a, button { cursor: pointer; }
 // Button end
 
 // Header
-.header {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 1rem 1.4rem;
-    background-color: white;
-    top: 0;
-    position: sticky;
-}
 // .category {}
 .category a {
     color: black;
@@ -52,5 +44,7 @@ a, button { cursor: pointer; }
 // Main end
 
 // Footer
-
+.footer-home li, .footer-Careers li {
+    line-height: 1.6rem;
+}
 // Footer end

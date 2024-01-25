@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Buttun = () => {
+export const Buttun = ({ bgColor }) => {
   return (
-      <button className='getBtn'>Get Started</button>
+      <button style={{backgroundColor: bgColor}} className='getBtn'>Get Started</button>
   )
 }
